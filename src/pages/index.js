@@ -24,42 +24,9 @@ const HomeIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <nav>
-            <ul>
-                <li>
-                    <a href="/">HOME</a>
-                </li>
-                <li>
-                    <a href="./about">ABOUT</a>
-                </li>
-                <li>
-                    <a href="./gallery">GALLERY</a>
-                </li>
-                <li>
-                    <a href="./animation">ANIMATION</a>
-                    <ul class="sub-nav">
-                        <li class="nav-item">
-                            <a href="./animation">SHOWREELS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./tcd">TECHNOCOLOR DREAMS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./qb">QUAY BISCUIT</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                            <a href="/blog">BLOG</a>
-                        </li>            
-                <li>
-                    <a href="./contact">CONTACT</a>
-                </li>
-            </ul>
-        </nav>
         <div class="logo">
             <div class="logoname">
-                <img src="assets/media/AW_LOGO.png"/>
+                <img src="assets/media/AW_LOGO.png" alt="" />
             </div>
             <div class= "user-links">
                 <a class="instagram" href="https://www.instagram.com/wattsanimation" target="_blank" rel="noopener noreferrer">

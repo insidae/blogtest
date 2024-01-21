@@ -4,42 +4,45 @@ import React, { Component } from "react";
 class About extends Component {
   render() {
     return (
-      <div ClassName="about">
-        <nav>
-            <ul>
-                <li>
-                    <a href="/">HOME</a>
-                </li>
-                <li>
-                    <a href="#">ABOUT</a>
-                </li>
-                <li>
-                    <a href="./gallery">GALLERY</a>
-                </li>
-                <li>
-                    <a href="./animation">ANIMATION</a>
-                    <ul ClassName="sub-nav">
-                        <li ClassName="nav-item">
-                            <a href="./animation">SHOWREELS</a>
-                        </li>
-                        <li ClassName="nav-item">
-                            <a href="./tcd">TECHNOCOLOR DREAMS</a>
-                        </li>
-                        <li ClassName="nav-item">
-                            <a href="./qb">QUAY BISCUIT</a>
-                        </li>
-                    </ul>
-                </li>            
-                <li>
-                    <a href="./contact">CONTACT</a>
-                </li>
+      <div className="about">
+      <nav>
+        <ul>
+          <li>
+            <a href="/">HOME</a>
+          </li>
+          <li>
+            <a href="./about">ABOUT</a>
+          </li>
+          <li>
+            <a href="./gallery">GALLERY</a>
+          </li>
+          <li>
+            <a href="./animation">ANIMATION</a>
+            <ul class="sub-nav">
+              <li class="nav-item">
+                <a href="./animation">SHOWREELS</a>
+              </li>
+              <li class="nav-item">
+                <a href="./tcd">TECHNOCOLOR DREAMS</a>
+              </li>
+              <li class="nav-item">
+                <a href="./qb">QUAY BISCUIT</a>
+              </li>
             </ul>
-        </nav>
-        <div ClassName="container">
+          </li>
+          <li class="nav-item">
+            <a href="/blog">BLOG</a>
+          </li>            
+          <li>
+            <a href="./contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+        <div className="container">
             <div>
-                <img ClassName="portrait" src="assets/media/portrait_web.jpg"/>
+                <img className="portrait" src="/assets/media/portrait_web.jpg" alt="" />
             </div>
-            <div ClassName="about">
+            <div className="about">
                 <h1>Hello.</h1>
                 <h4>
                     I'm Ant, and I animate. I have a wide range of 
@@ -50,7 +53,7 @@ class About extends Component {
                 </h4>
             </div>
             <hr/>
-            <div ClassName="aboutwebsite">
+            <div className="aboutwebsite">
                 <h1>About this Website</h1>
                 <h4>
                     Initially I just wanted to publish a new portfolio
@@ -69,16 +72,16 @@ class About extends Component {
                 </h4>
             </div>
             <hr/>
-            <div ClassName="software">
+            <div className="software">
                 <h1>Software I use</h1>
-                <ul ClassName="left-list">
+                <ul className="left-list">
                     <h4>Photoshop</h4>
                     <h4>Illustrator</h4>
                     <h4>Animate</h4>
                     <h4>Premiere Pro</h4>
                     <h4>After Effects</h4>
                 </ul>
-                <ul ClassName="right-list">
+                <ul className="right-list">
                     <h4>TV Paint</h4>
                     <h4>Toon Boom</h4>
                     <h4>Autodesk Maya</h4>
@@ -86,8 +89,8 @@ class About extends Component {
                 </ul>
             </div>
         </div>
-        <div ClassName="background-fixed">
-            <img src="assets/qb/thumbs/Thumb_41.jpg"/>
+        <div className="background-fixed">
+            <img src="assets/qb/thumbs/Thumb_41.jpg" alt="" />
         </div>
       </div>
     );
